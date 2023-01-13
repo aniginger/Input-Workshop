@@ -34,10 +34,10 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
-  - 
-  - 
+  - P1
+  - P2
+  - P3
+  - P4
   m_SortingLayers:
   - name: Default
     uniqueID: 0
