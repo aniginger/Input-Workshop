@@ -61,10 +61,7 @@ namespace Platformer.Mechanics
         // Input Action for horizontal movement
         public void Move(InputAction.CallbackContext context)
         {
-            if (controlEnabled)
-            {
-                move.x = context.ReadValue<Vector2>().x;
-            }
+            move.x = context.ReadValue<Vector2>().x;
         }
 
         // Input action for jumping
